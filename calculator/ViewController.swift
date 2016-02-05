@@ -19,13 +19,15 @@ class ViewController: UIViewController {
     var operation = ""
 
     
-    //button clicked functions
+    //clears the view
     @IBAction func clearClicked(sender: AnyObject) {
         first = 0
         second = 0
+        result = 0
         numberLabel.text = "0"
     }
     
+    // recieves the numbers inputed by the user
     @IBAction func number(sender: AnyObject) {
         let number = sender.currentTitle
         if isTypingNumber == true{
@@ -36,6 +38,7 @@ class ViewController: UIViewController {
         isTypingNumber = true
     }
     
+    // receives the operand clicked to perform the calculation
     @IBAction func operation(sender: AnyObject) {
         isTypingNumber = false
         let text: String = numberLabel.text!
@@ -43,6 +46,7 @@ class ViewController: UIViewController {
         operation = sender.currentTitle!!
     }
     
+    //pulls actions and performs the calculation
     @IBAction func calculateClicked(sender: AnyObject) {
         let text: String = numberLabel.text!
         second = Double(text)!
