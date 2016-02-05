@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    //variables
+    //variables 
     @IBOutlet weak var numberLabel: UILabel!
     var first = Double()
     var second = Double()
