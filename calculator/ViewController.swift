@@ -3,14 +3,14 @@
 //  calculator
 //
 //  Created by student on 2016-02-05.
-//  Copyright © 2016 student. All rights reserved.
-//
+//  Copyright © 2016 Peter Smith. All rights reserved.
+//  This program does basic calculations with math using button input
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    //variables 
+    //variables
     @IBOutlet weak var numberLabel: UILabel!
     var first = Double()
     var second = Double()

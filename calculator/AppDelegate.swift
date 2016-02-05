@@ -3,8 +3,8 @@
 //  calculator
 //
 //  Created by student on 2016-02-05.
-//  Copyright © 2016 student. All rights reserved.
-//
+//  Copyright © 2016 Peter Smith. All rights reserved.
+//  This program does basic calculations with math using button input
 
 import UIKit
 
